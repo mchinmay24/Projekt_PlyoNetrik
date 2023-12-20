@@ -52,7 +52,7 @@ header h1{
     border-left: transparent;
     rotate: 45deg;
     margin-bottom: 2px;
-    transition: cubic-bezier(.55,.99,.5,-0.01) 1s;
+    transition: cubic-bezier(.22,1.43,.78,1.43) 500ms;
 }
 .linkdiv:hover .arrow{
     rotate: 135deg;
@@ -157,7 +157,7 @@ footer{
 }
 .contactus a img{
     filter: invert();
-    transition: ease-in-out 500ms;
+    transition: cubic-bezier(.22,1.43,.78,1.43) 1900ms;
 }
 .contactus a img:hover{
     rotate: 360deg;
